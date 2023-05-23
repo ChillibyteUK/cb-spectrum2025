@@ -22000,6 +22000,7 @@ ul.no-indent {
   font-weight: var(--fw-600);
   text-decoration: none;
   position: relative;
+  display: inline-block;
 }
 #main a:not(.btn, .services__card, .sectors__card, .news_grid__item, .related__card, .gallery__preview, .cs_index__card)::before {
   content: "";
