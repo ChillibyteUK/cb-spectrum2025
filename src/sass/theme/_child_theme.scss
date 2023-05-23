@@ -1,8 +1,23 @@
 @import "typography";
 @import "colours";
+@import "buttons";
 @import "header";
 @import "footer";
+@import "news";
+@import "case_studies";
 @import "blocks/blocks";
+
+main {
+    margin-top: var(--h-top);
+}
+
+.container-xl .container-xl {
+    padding-inline: 0;
+}
+
+a {
+    transition: color 300ms ease;
+}
 
 a.noline {
     text-decoration: none;
@@ -29,7 +44,7 @@ a.anchor {
     }
 }
 
-:not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name) > a[target="_blank"]:not(.btn)::after {
+:not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name,#top-nav>li) > a[target="_blank"]:not(.btn,.fa-brands)::after {
     content: "\f08e";
     font-family: "Font Awesome 6 Free";
     font-weight: 600;
@@ -50,6 +65,35 @@ a.anchor {
 
 :not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name) > a[target="_blank"]:not(.btn)::after {
     font-weight: 600;
+}
+
+ul.no-indent {
+    padding-inline-start: 0;
+}
+
+#main {
+    a:not(.btn, .services__card, .sectors__card, .news_grid__item, .related__card, .gallery__preview, .cs_index__card ) {
+        color: var(--col-green-400);
+        font-weight: var(--fw-600);
+        text-decoration: none;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scale(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--col-green-400);
+            transform-origin: bottom right;
+            transition: transform 250ms ease-out;
+        }
+        &:hover::before {
+            transform: scalex(1);
+            transform-origin: bottom left;
+        }
+    }
 }
 
 // show stuff that overflows horizontally

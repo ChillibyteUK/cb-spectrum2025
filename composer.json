@@ -1,5 +1,5 @@
 {
-	"name": "understrap/cb-starter",
+	"name": "understrap/cb-cps2023",
 	"description": "Basic Child Starter Theme for Understrap",
 	"type": "wordpress-theme",
 	"license": "GPL-3.0",
@@ -9,11 +9,11 @@
 		"theme",
 		"bootstrap"
 	],
-	"homepage": "https://github.com/understrap/cb-starter",
+	"homepage": "https://github.com/understrap/cb-cps2023",
 	"authors": [
 		{
 			"name": "Contributors",
-			"homepage": "https://github.com/understrap/cb-starter/contributors.md"
+			"homepage": "https://github.com/understrap/cb-cps2023/contributors.md"
 		}
 	],
 	"require": {

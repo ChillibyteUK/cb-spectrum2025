@@ -32,65 +32,11 @@ add_shortcode('contact_email', function(){
     }
     return;
 });
-add_shortcode('contact_email_icon', function(){
-    if (get_field('contact_email','options')) {
-        return '<a href="mailto:' . get_field('contact_email','options') . '"><i class="fas fa-envelope"></i></a>';
-    }
-    return;
-});
-add_shortcode('social_fb_icon', function () {
-    $social = get_field('social', 'options');
-    $fburl = $social['facebook_url'];
-    if ($fburl != '') {
-        return '<a href="' . $fburl . '" target="_blank"><i class="fab fa-facebook"></i></a>';
-    }
-    return;
-});
-add_shortcode('social_ig_icon', function () {
-    $social = get_field('social', 'options');
-    $igurl = $social['instagram_url'];
-    if ($igurl != '') {
-        return '<a href="' . $igurl . '" target="_blank"><i class="fab fa-instagram"></i></a>';
-    }
-    return;
-});
-add_shortcode('social_tw_icon', function () {
-    $social = get_field('social', 'options');
-    $twurl = $social['twitter_url'];
-    if ($twurl != '') {
-        return '<a href="' . $twurl . '" target="_blank"><i class="fab fa-twitter"></i></a>';
-    }
-    return;
-});
-add_shortcode('social_pt_icon', function () {
-    $social = get_field('social', 'options');
-    $pturl = $social['pinterest_url'];
-    if ($pturl != '') {
-        return '<a href="' . $pturl . '" target="_blank"><i class="fab fa-pinterest"></i></a>';
-    }
-    return;
-});
-add_shortcode('social_yt_icon', function () {
-    $social = get_field('social', 'options');
-    $yturl = $social['youtube_url'];
-    if ($yturl != '') {
-        return '<a href="' . $yturl . '" target="_blank"><i class="fab fa-youtube"></i></a>';
-    }
-    return;
-});
+
+
 add_shortcode('social_in_icon', function () {
-    $social = get_field('social', 'options');
-    $inurl = $social['linkedin_url'];
-    if ($inurl != '') {
-        return '<a href="' . $inurl . '" target="_blank"><i class="fab fa-linkedin"></i></a>';
-    }
-    return;
-});
-add_shortcode('social_gp_icon', function () {
-    $social = get_field('social', 'options');
-    $gpurl = $social['google_url'];
-    if ($gpurl != '') {
-        return '<a href="' . $gpurl . '" target="_blank"><i class="fas fa-globe-americas"></i></a>';
+    if ( get_field('linkedin_url', 'options') ?? null ) {
+        return '<a href="' . get_field('linkedin_url', 'options') . '" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>';
     }
     return;
 });
