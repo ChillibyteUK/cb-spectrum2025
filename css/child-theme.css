@@ -21149,6 +21149,18 @@ strong {
   font-weight: var(--fw-600);
 }
 
+.w-short {
+  max-width: 65ch;
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-450 {
+  font-size: var(--fs-450);
+}
+
 .has-medium-font-size {
   font-size: var(--fs-450);
 }
@@ -21677,7 +21689,7 @@ footer .cb:hover {
   gap: 1rem;
 }
 .sectors_nav .sectors__card {
-  width: 280px;
+  width: 170px;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -21713,29 +21725,20 @@ footer .cb:hover {
   --border-color: var(--color);
 }
 .services_nav .services {
-  display: grid;
-  --col-count: 1;
-  grid-template-columns: repeat(var(--col-count), 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
-@media (width >= 576px) {
-  .services_nav .services {
-    --col-count: 2;
-  }
-}
-@media (width >= 992px) {
-  .services_nav .services {
-    --col-count: 4;
-  }
-}
 .services_nav .services__card {
+  width: max(19%, 240px);
+  flex-grow: 1;
   text-decoration: none;
   color: var(--color);
   border-left: 1px solid var(--border-color);
   padding: 0.5rem 1rem;
 }
 .services_nav .services__card h3, .services_nav .services__card .h3 {
-  min-height: 3.7rem;
+  min-height: 5.7rem;
   max-width: 12ch;
   margin-bottom: 0;
 }

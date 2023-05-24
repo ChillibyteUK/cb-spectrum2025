@@ -41,6 +41,26 @@
             "append": ""
         },
         {
+            "key": "field_646e1afcee32d",
+            "label": "Intro",
+            "name": "intro",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
             "key": "field_6463891b28cfe",
             "label": "Sectors",
             "name": "sectors",
@@ -108,5 +128,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684248350
+    "modified": 1684937484
 }

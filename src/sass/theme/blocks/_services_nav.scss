@@ -7,24 +7,19 @@
         --border-color: var(--color);
     }
     .services {
-        display: grid;
-        --col-count: 1;
-        @media (width >= 576px) {
-            --col-count: 2;
-        }
-        @media (width >= 992px) {
-            --col-count: 4;
-        }
-        grid-template-columns: repeat(var(--col-count), 1fr);
+        display: flex;
+        flex-wrap: wrap;
         gap: 1rem;
         
         &__card {
+            width: max(19%,240px);
+            flex-grow: 1;
             text-decoration: none;
             color: var(--color);
             border-left: 1px solid var(--border-color);
             padding: 0.5rem 1rem;
             h3 {
-                min-height: 3.7rem;
+                min-height: 5.7rem;
                 max-width: 12ch;
                 margin-bottom: 0;
             }

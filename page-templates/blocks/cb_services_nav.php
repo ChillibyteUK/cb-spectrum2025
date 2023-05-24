@@ -3,8 +3,15 @@ $classes = (get_field('dark')[0] ?? null) == 'Yes' ? 'dark' : '';
 ?>
 <section class="services_nav py-5 <?=$classes?>">
     <div class="container-xl">
-        <h2 class="dot mb-5">Our Services</h2>
-        <div class="services">
+        <h2 class="dot mb-3">Our Services</h2>
+        <?php
+        if (get_field('intro')) {
+            ?>
+        <div class="fs-450 w-short"><?=get_field('intro')?></div>
+            <?php
+        }
+        ?>
+        <div class="services mt-5">
         <?php
         while (have_rows('services')) {
             the_row();

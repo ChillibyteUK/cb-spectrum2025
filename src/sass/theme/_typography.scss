@@ -57,6 +57,17 @@ strong {
     font-weight: var(--fw-600);
 }
 
+.w-short {
+    max-width: 65ch;
+}
+
+.fs-400 {
+    font-size: var(--fs-400);
+}
+.fs-450 {
+    font-size: var(--fs-450);
+}
+
 .has-medium-font-size {
     font-size: var(--fs-450);
 }
