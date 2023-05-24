@@ -1,10 +1,10 @@
 {
     "key": "group_646cbe17cc700",
-    "title": "CB Contact\/Form",
+    "title": "CB Contact Details",
     "fields": [
         {
             "key": "field_646cbe1832e74",
-            "label": "CB Contact\/Form",
+            "label": "CB Contact Details",
             "name": "",
             "aria-label": "",
             "type": "message",
@@ -39,5 +39,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684848173
+    "modified": 1684916146
 }
