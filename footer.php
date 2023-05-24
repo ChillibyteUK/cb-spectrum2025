@@ -7,11 +7,11 @@ defined('ABSPATH') || exit;
 <footer>
     <div class="footer container-xl pt-5 pb-3">
         <div class="row">
-            <div class="col-lg-5 d-flex align-items-end">
+            <div class="col-lg-4 d-flex align-items-end">
                 <img src="<?=get_stylesheet_directory_uri()?>/img/cps-logo--wo.svg"
                     class="footer__logo" alt="CPS Logo">
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <div class="footer__heading">Services</div>
                 <?=wp_nav_menu(array('theme_location' => 'footer_menu1'))?>
             </div>

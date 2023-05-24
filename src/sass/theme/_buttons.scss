@@ -93,22 +93,40 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+
     &::after {
         content: "\f105";
         font-family: 'font awesome 6 free';
         margin-left: 0.5rem;
+        position: absolute;
+        transition: transform 300ms ease-out;
+    }
+    &:hover {
+        &::after {
+            transform: translatex(0.5rem);
+        }
     }
 }
 
 .btn-previous {
-    width: 125px;
+    min-width: 125px;
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+
     &::before {
         content: "\f104";
         font-family: 'font awesome 6 free';
-        margin-right: 0.5rem;
+        left: 1rem;
+        position: absolute;
+        transition: transform 300ms ease-out;
+    }
+    &:hover {
+        &:before {
+            transform: translatex(-0.5rem);
+        }
     }
 
     &::after {
