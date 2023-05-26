@@ -56,6 +56,9 @@ get_header();
                         echo cb_list(get_field('disciplines'));
                     }
                     ?>
+                    <div class="text-center mt-4">
+                        <a href="/contact/" class="btn btn-primary">Contact Us</a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-8 case-study__content">
