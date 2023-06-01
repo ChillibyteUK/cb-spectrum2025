@@ -21385,12 +21385,12 @@ footer .cb:hover {
   grid-template-columns: repeat(var(--col-count), 1fr);
   gap: 1rem;
 }
-@media (width >= 576px) {
+@media (min-width: 576px) {
   .news_index {
     --col-count: 2;
   }
 }
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .news_index {
     --col-count: 3;
   }
@@ -21561,12 +21561,12 @@ footer .cb:hover {
   display: grid;
   gap: 0.5rem;
 }
-@media (width >= 576px) {
+@media (min-width: 576px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -21586,7 +21586,7 @@ footer .cb:hover {
   gap: 1rem;
   margin-bottom: 1rem;
 }
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .cs-sector {
     grid-template-columns: 1fr 1fr;
   }
@@ -21660,7 +21660,7 @@ footer .cb:hover {
   opacity: 0.6;
   z-index: -1;
 }
-@media (width >= 992px) {
+@media (min-width: 992px) {
   .overlay--dark {
     --slash-width: 160%;
     width: var(--slash-width);
@@ -21669,7 +21669,7 @@ footer .cb:hover {
     animation: slash 1s ease-out;
   }
 }
-@media (width >= 1400px) {
+@media (min-width: 1400px) {
   .overlay--dark {
     --slash-width: 135%;
     width: var(--slash-width);
@@ -21897,7 +21897,7 @@ footer .cb:hover {
   display: grid;
   gap: 1rem;
 }
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .andwis__grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -21908,7 +21908,7 @@ footer .cb:hover {
 .andwis__card:not(:first-of-type) {
   border-top: 1px solid var(--col-blue-400);
 }
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .andwis__card:not(:first-of-type) {
     border-left: 1px solid var(--col-blue-400);
     border-top: none;

@@ -40,14 +40,14 @@
     mix-blend-mode: darken;
     opacity: 0.6;
     z-index: -1;
-    @media (width >= 992px) {
+    @media (min-width: 992px) {
         --slash-width: 160%;
         width: var(--slash-width);
         transform-origin: bottom;
         transform: skewX(45deg) translatex(-40%);
         animation: slash 1s ease-out;
     }
-    @media (width >= 1400px) {
+    @media (min-width: 1400px) {
         --slash-width: 135%;
         width: var(--slash-width);
         transform-origin: bottom;

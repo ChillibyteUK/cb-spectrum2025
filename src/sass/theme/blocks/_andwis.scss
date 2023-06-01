@@ -2,7 +2,7 @@
     &__grid {
         display: grid;
         gap: 1rem;
-        @media (width >= 768px) {
+        @media (min-width: 768px) {
             grid-template-columns: repeat(3,1fr);
         }
     }
@@ -11,7 +11,7 @@
     }
     &__card:not(:first-of-type) {
         border-top: 1px solid var(--col-blue-400);
-        @media (width >= 768px) {
+        @media (min-width: 768px) {
             border-left: 1px solid var(--col-blue-400);
             border-top: none;
         }
