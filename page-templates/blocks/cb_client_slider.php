@@ -2,7 +2,7 @@
     <div class="container">Our Clients</div>
     <div class="clients__slider">
     <?php
-    while (have_rows('client_logos')) {
+    while (have_rows('client_logos','options')) {
         the_row();
         ?>
     <div><img src="<?=wp_get_attachment_image_url(get_sub_field('logo'))?>"></div>
