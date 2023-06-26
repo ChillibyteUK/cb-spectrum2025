@@ -108,15 +108,15 @@ do_action('wp_body_open');
 ?>
 <div class="site" id="page">
     <div id="wrapper-navbar" class="fixed-top">
-        <nav id="navbar" class="navbar navbar-expand-lg d-block p-0 pt-2 pt-lg-0" aria-labelledby="main-nav-label">
+        <nav id="navbar" class="navbar navbar-expand-md d-block p-0 pt-2 pt-md-0" aria-labelledby="main-nav-label">
             <div class="container-xl mb-2">
-                <div class="d-flex w-100 w-lg-auto justify-content-between align-items-center px-2">
+                <div class="d-flex w-100 w-md-auto justify-content-between align-items-center px-2">
                     <a href="/" class="navbar-brand" rel="home"></a>
                     <button class="navbar-toggler input-button" id="navToggle" data-bs-toggle="collapse" data-bs-target=".navbars" type="button" aria-label="Navigation"><i class="fa fa-navicon"></i></button>
                 </div>
-                <div class="d-flex flex-column-reverse flex-lg-column">
-                    <div id="topNav" class="d-none d-lg-flex px-2 px-lg-0 collapse navbar-collapse navbars">
-                        <ul id="top-nav" class="navbar-nav w-100 justify-content-end align-items-lg-center mt-2 mt-lg-0">
+                <div class="d-flex flex-column-reverse flex-md-column">
+                    <div id="topNav" class="d-none d-md-flex px-2 px-md-0 collapse navbar-collapse navbars">
+                        <ul id="top-nav" class="navbar-nav w-100 justify-content-end align-items-md-center mt-2 mt-md-0">
                             <li class="menu-item nav-item">
                                 <a title="Phone" href="tel:<?=parse_phone(get_field('contact_phone','options'))?>" class="nav-link"><?=get_field('contact_phone','options')?></a>
                             </li>
@@ -130,9 +130,9 @@ do_action('wp_body_open');
                         wp_nav_menu(
                             array(
                                 'theme_location'  => 'primary_nav',
-                                'container_class' => 'pt-2 px-0 p-lg-0 collapse navbar-collapse navbars',
+                                'container_class' => 'pt-2 px-0 p-md-0 collapse navbar-collapse navbars',
                                 'container_id'    => 'primaryNav',
-                                'menu_class'      => 'navbar-nav justify-content-start align-items-lg-end mt-2 mt-lg-0',
+                                'menu_class'      => 'navbar-nav justify-content-start align-items-md-end mt-2 mt-md-0',
                                 'fallback_cb'     => '',
                                 'menu_id'         => 'main-menu',
                                 'depth'           => 2,
