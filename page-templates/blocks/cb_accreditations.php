@@ -30,8 +30,8 @@ jQuery(function($){
         pauseOnHover: false,
         cssEase: 'ease',
         arrows: true,
-        nextArrow: '<i class="fa fa-angle-right fa-3x"></i>',
-        prevArrow: '<i class="fa fa-angle-left fa-3x"></i>',
+        nextArrow: '<i class="fa fa-angle-right fa-2x"></i>',
+        prevArrow: '<i class="fa fa-angle-left fa-2x"></i>',
         dots: false,
         responsive: [
             {

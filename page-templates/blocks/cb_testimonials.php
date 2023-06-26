@@ -38,8 +38,8 @@ jQuery(function($){
         fade: true,
         arrows: true,
         dots: false,
-        nextArrow: '<i class="fa fa-angle-right fa-3x"></i>',
-        prevArrow: '<i class="fa fa-angle-left fa-3x"></i>'
+        nextArrow: '<i class="fa fa-angle-right fa-2x"></i>',
+        prevArrow: '<i class="fa fa-angle-left fa-2x"></i>'
     });
 });
 </script>

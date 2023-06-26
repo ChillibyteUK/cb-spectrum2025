@@ -1,38 +1,39 @@
-<section class="clients">
-    <div class="container">Our Clients</div>
-    <div class="clients__slider">
-    <?php
-    if (have_rows('client_logos','options')) {
+<?php
+if (have_rows('client_logos','options')) {
+    ?>
+<section class="clients py-5">
+    <div class="container-xl">
+        <h2 class="text-blue-400 dot mb-5">Our Clients</h2>
+        <div class="clients__slider">
+            <?php
         while (have_rows('client_logos','options')) {
             the_row();
         ?>
-    <div><img src="<?=wp_get_attachment_image_url(get_sub_field('logo'))?>"></div>
+    <div class="logo"><img src="<?=wp_get_attachment_image_url(get_sub_field('logo'),'large')?>"></div>
         <?php
         }
-    }
-    else {
-        echo 'nope';
-    }
-    ?>
+        ?>
+        </div>
     </div>
 </section>
 <?php
+}
 add_action('wp_footer', function () {
     ?>
 <script type="text/javascript">
 jQuery(function($){
     $('.clients__slider').slick({
         infinite: true,
-        slidesToShow: 8,
+        slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1000,
         speed: 500,
         pauseOnHover: false,
         cssEase: 'ease',
         arrows: true,
-        nextArrow: '<i class="fa fa-angle-right fa-3x"></i>',
-        prevArrow: '<i class="fa fa-angle-left fa-3x"></i>',
+        nextArrow: '<i class="fa fa-angle-right fa-2x"></i>',
+        prevArrow: '<i class="fa fa-angle-left fa-2x"></i>',
         dots: false,
         responsive: [
             {
