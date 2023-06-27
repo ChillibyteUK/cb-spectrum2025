@@ -11,14 +11,14 @@ else {
     $list = get_field('awards','options');
 }
 ?>
-<section class="awards_list">
+<section class="awards_list pb-5">
     <div class="container-xl">
         <h2 class="text-blue-400 dot mb-5"><?=$title?></h2>
         <div class="row g-4">
         <?php
         foreach ($list as $l) {
             ?>
-            <div class="col-md-3"><img src="<?=wp_get_attachment_image_url($l['logo'],'large')?>" alt="" class="logo"></div>
+            <div class="col-md-3 text-center"><img src="<?=wp_get_attachment_image_url($l['logo'],'large')?>" alt="" class="logo"></div>
             <div class="col-md-9"><?=$l['description']?></div>
             <?php
         }
