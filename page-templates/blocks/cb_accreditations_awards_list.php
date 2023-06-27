@@ -18,7 +18,7 @@ else {
         <?php
         foreach ($list as $l) {
             ?>
-            <div class="col-md-3"><img src="<?=wp_get_attachment_image_url($l['logo'],'large')?>" alt=""></div>
+            <div class="col-md-3"><img src="<?=wp_get_attachment_image_url($l['logo'],'large')?>" alt="" class="logo"></div>
             <div class="col-md-9"><?=$l['description']?></div>
             <?php
         }
