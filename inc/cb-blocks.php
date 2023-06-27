@@ -44,11 +44,20 @@ function acf_blocks()
         ));
         acf_register_block_type(array(
             'name'				=> 'cb_accreditations',
-            'title'				=> __('CB Accreditations Slider'),
+            'title'				=> __('CB Accreditations'),
             'category'			=> 'layout',
             'icon'				=> 'cover-image',
             'render_template'	=> 'page-templates/blocks/cb_accreditations.php',
             'keywords'			=> array( 'accreditations', 'slider' ),
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_accreditations_awards_list',
+            'title'				=> __('CB Accreditations/Awards List'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_accreditations_awards_list.php',
             'mode'	=> 'edit',
             'supports' => array('mode' => false),
         ));
