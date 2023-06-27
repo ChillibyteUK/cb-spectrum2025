@@ -21829,6 +21829,25 @@ footer .cb:hover {
   justify-self: center;
 }
 
+.awards_list__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 992px) {
+  .awards_list__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.awards_list__grid .logo {
+  aspect-ratio: 4/3;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  justify-self: center;
+}
+
 .news_grid {
   background-color: var(--col-grey-200);
 }

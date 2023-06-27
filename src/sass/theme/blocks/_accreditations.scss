@@ -14,3 +14,20 @@
         }
     }
 }
+
+.awards_list {
+    &__grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        @media (min-width:992px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .logo {
+            aspect-ratio: 4 / 3;
+            object-fit: contain;
+            object-position: center;
+            justify-self: center;
+        }
+    }
+}
