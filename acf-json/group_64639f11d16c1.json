@@ -1,10 +1,10 @@
 {
     "key": "group_64639f11d16c1",
-    "title": "CB Accreditations & Awards Slider",
+    "title": "CB Accreditations & Awards",
     "fields": [
         {
             "key": "field_64639f12e8f33",
-            "label": "CB Accreditations & Awards Slider",
+            "label": "CB Accreditations & Awards",
             "name": "",
             "aria-label": "",
             "type": "message",
@@ -39,5 +39,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684250409
+    "modified": 1687854056
 }
