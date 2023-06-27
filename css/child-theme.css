@@ -21780,19 +21780,16 @@ footer .cb:hover {
   transform: scale(1.1);
 }
 
-.accreditations__slider,
 .clients__slider {
   display: flex;
   align-items: center;
 }
-.accreditations__slider .logo,
 .clients__slider .logo {
   display: grid;
   place-content: center;
   padding-inline: 1rem;
   min-height: 160px;
 }
-.accreditations__slider .logo img,
 .clients__slider .logo img {
   margin-inline: 1rem;
   aspect-ratio: 1/1;
@@ -21811,6 +21808,25 @@ footer .cb:hover {
 }
 .slick-arrow:hover {
   color: var(--col-green-400);
+}
+
+.accreditations__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (min-width: 992px) {
+  .accreditations__grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+.accreditations__grid .logo {
+  aspect-ratio: 4/3;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  justify-self: center;
 }
 
 .news_grid {
