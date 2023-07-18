@@ -21165,6 +21165,10 @@ strong {
   font-size: var(--fs-450);
 }
 
+.has-dark-color {
+  color: var(--col-blue-400);
+}
+
 .btn, .gform_button {
   text-decoration: none;
   border-radius: 0.25rem;
