@@ -21166,7 +21166,7 @@ strong {
 }
 
 .has-dark-color {
-  color: var(--col-blue-400);
+  color: var(--col-blue-400) !important;
 }
 
 .btn, .gform_button {
