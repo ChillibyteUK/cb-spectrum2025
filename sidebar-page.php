@@ -49,14 +49,12 @@ get_header();
     </div>
     <?php
 require('page-templates/blocks/cb_testimonials.php');
-// horrible and hacky - get_page_by_path('about-us') is returning null ID
 wp_reset_postdata();
-if (get_the_ID() == 22) {
-    echo "yup";
-    require('page-templates/blocks/cb_andwis.php');
-}
-else {
-    echo "nope - " . get_the_ID();
+$about = get_page_by_path('about-us') ?? null;
+if ($about) {
+    if (get_the_ID() == $about->ID) {
+        require('page-templates/blocks/cb_andwis.php');
+    }
 }
     ?>
 </main>
