@@ -22,7 +22,7 @@ get_header();
 
     <div class="container-xl py-5">
         <?php
-        $cats = get_terms(array('taxonomy' => 'cssector', 'hide_empty' => false));
+        $cats = get_terms(array('taxonomy' => 'cssector', 'hide_empty' => true));
         ?>
         <div class="filters mb-4">
             <?php
