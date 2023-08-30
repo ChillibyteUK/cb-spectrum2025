@@ -54,6 +54,9 @@ if (get_the_ID() == 22) {
     echo "yup";
     require('page-templates/blocks/cb_andwis.php');
 }
+else {
+    echo "nope - " . get_the_ID();
+}
     ?>
 </main>
 <?php
