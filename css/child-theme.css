@@ -21926,28 +21926,18 @@ footer .cb:hover {
   font-weight: var(--fw-semi);
 }
 
-.andwis__grid {
-  display: grid;
-  gap: 1rem;
-}
-@media (min-width: 768px) {
-  .andwis__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-.andwis__card {
+.andwis__inner {
   padding: 1rem;
-}
-.andwis__card:not(:first-of-type) {
-  border-top: 1px solid var(--col-blue-400);
+  height: 100%;
+  min-height: 300px;
 }
 @media (min-width: 768px) {
-  .andwis__card:not(:first-of-type) {
+  .andwis__inner {
     border-left: 1px solid var(--col-blue-400);
     border-top: none;
   }
 }
-.andwis__card > img {
+.andwis__inner > img {
   height: 3.5rem;
   -o-object-fit: contain;
   object-fit: contain;
