@@ -51,7 +51,7 @@ get_header();
 require('page-templates/blocks/cb_testimonials.php');
 $about = get_page_by_path( 'about-us' ) ?? null;
 echo "<pre>";
-var_dump($about);
+var_dump($about->ID);
 echo '<br>';
 echo get_the_ID();
 echo "</pre>";
