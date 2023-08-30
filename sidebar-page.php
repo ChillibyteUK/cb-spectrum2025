@@ -49,7 +49,7 @@ get_header();
     </div>
     <?php
 require('page-templates/blocks/cb_testimonials.php');
-$about = get_page_by_path( 'about-us' );// ?? null;
+$about = get_page_by_path('about-us');// ?? null;
 echo "<pre>";
 var_dump($about->ID);
 echo '<br>';
