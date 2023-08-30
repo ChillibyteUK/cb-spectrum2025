@@ -49,20 +49,10 @@ get_header();
     </div>
     <?php
 require('page-templates/blocks/cb_testimonials.php');
-$about = get_page_by_path('about-us');// ?? null;
-echo "<pre>";
-var_dump($about->ID);
-echo '<br>';
-echo get_the_ID();
-echo "</pre>";
-if ($about) {
-    if (get_the_ID() == $about->ID) {
-        echo "yup";
-        require('page-templates/blocks/cb_andwis.php');
-    }
-    else {
-        echo "nope";
-    }
+// horrible and hacky - get_page_by_path('about-us') is returning null ID
+if (get_the_ID() == 22) {
+    echo "yup";
+    require('page-templates/blocks/cb_andwis.php');
 }
     ?>
 </main>
