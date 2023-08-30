@@ -51,6 +51,7 @@ get_header();
 require('page-templates/blocks/cb_testimonials.php');
 $about = get_page_by_path( 'about-us' ) ?? null;
 if (get_the_ID() == $about->ID) {
+    echo "yup";
     require('page-templates/blocks/cb_andwis.php');
 }
 else {
