@@ -49,6 +49,10 @@ get_header();
     </div>
     <?php
 require('page-templates/blocks/cb_testimonials.php');
+$about = get_page_by_path( 'about-us' ) ?? null;
+if (get_the_ID() == $about->ID) {
+    require('page-templates/blocks/cb_andwis.php');
+}
     ?>
 </main>
 <?php
