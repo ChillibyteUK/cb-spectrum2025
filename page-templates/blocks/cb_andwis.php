@@ -37,3 +37,26 @@
         </div>
     </div>
 </section>
+<?php
+add_action('wp_footer', function () {
+    ?>
+<script type="text/javascript">
+jQuery(function($){
+    $('.andwis__grid').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        cssEase: 'linear',
+        fade: true,
+        arrows: true,
+        dots: false,
+        nextArrow: '<i class="fa fa-angle-right fa-2x"></i>',
+        prevArrow: '<i class="fa fa-angle-left fa-2x"></i>'
+    });
+});
+</script>
+    <?php
+}, 9999);
