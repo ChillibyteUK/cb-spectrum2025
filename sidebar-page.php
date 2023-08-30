@@ -53,6 +53,9 @@ $about = get_page_by_path( 'about-us' ) ?? null;
 if (get_the_ID() == $about->ID) {
     require('page-templates/blocks/cb_andwis.php');
 }
+else {
+    echo "nope";
+}
     ?>
 </main>
 <?php
