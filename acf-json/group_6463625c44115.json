@@ -509,7 +509,7 @@
                         "hvac": "HVAC",
                         "lifts": "Lifts",
                         "mechanical": "Mechanical",
-                        "water": "water"
+                        "water": "Water"
                     },
                     "default_value": [],
                     "return_format": "value",
@@ -637,5 +637,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687854277
+    "modified": 1693922761
 }
