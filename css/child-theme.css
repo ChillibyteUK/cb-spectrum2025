@@ -22008,6 +22008,28 @@ footer .cb:hover {
   margin-bottom: 1rem;
 }
 
+.documents__card {
+  border: 1px solid var(--col-grey-200);
+  height: 100%;
+  display: grid !important;
+  grid-template-rows: auto 1fr auto;
+}
+.documents__image {
+  border: 1px solid var(--col-grey-200);
+  margin: 0.5rem;
+}
+.documents__title {
+  font-size: var(--fs-400);
+  color: #000;
+  padding: 0.25rem;
+}
+.documents__meta {
+  font-size: var(--fs-200);
+  padding: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 main {
   margin-top: var(--h-top);
 }
