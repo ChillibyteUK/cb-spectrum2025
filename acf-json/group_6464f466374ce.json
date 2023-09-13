@@ -47,7 +47,7 @@
             "label": "Project Value",
             "name": "project_value",
             "aria-label": "",
-            "type": "text",
+            "type": "number",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -57,8 +57,10 @@
                 "id": ""
             },
             "default_value": "",
-            "maxlength": "",
+            "min": "",
+            "max": "",
             "placeholder": "",
+            "step": "",
             "prepend": "",
             "append": ""
         },
@@ -129,5 +131,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684845528
+    "modified": 1694606487
 }
