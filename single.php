@@ -43,7 +43,7 @@ $img = get_the_post_thumbnail_url(get_the_ID(),'full');
             ?>
             </div>
             <div class="col-lg-3 related">
-                <h3 class="text-blue-400 dot"><span>Related</span> Guides</h3>
+                <h3 class="text-blue-400 dot">Related News</h3>
             <?php
             $cats = get_the_category();
             $ids = wp_list_pluck($cats,'term_id');
