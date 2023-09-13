@@ -133,15 +133,15 @@ function cb_dashboard_widget_display()
 
 add_filter('wpseo_breadcrumb_links', function( $links ) {
     global $post;
-    if ( is_singular( 'post' ) ) {
-        $t = get_the_category($post->ID);
-        $breadcrumb[] = array(
-            'url' => '/guides/',
-            'text' => 'Guides',
-        );
+    // if ( is_singular( 'post' ) ) {
+    //     $t = get_the_category($post->ID);
+    //     $breadcrumb[] = array(
+    //         'url' => '/guides/',
+    //         'text' => 'Guides',
+    //     );
 
-        array_splice( $links, 1, -2, $breadcrumb );
-    }
+    //     array_splice( $links, 1, -2, $breadcrumb );
+    // }
     return $links;
 }
 );
