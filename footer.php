@@ -34,9 +34,7 @@ defined('ABSPATH') || exit;
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="col-md-10 text-center text-md-start">
                     &copy; <?=date('Y')?> CPS Building Services. Registered in England no 04360959 |
-                    <a href="/terms-conditions/">Terms & Conditions</a> |
-                    <a href="/privacy-policy/">Privacy & Cookies</a> |
-                    <a href="/anti-slavery-policy/">Anti-Slavery Policy</a>
+                    <a href="/policies/">Policies</a>
                 </div>
                 <div class="col-md-2 d-flex align-items-center justify-content-end flex-wrap gap-3">
                     <a href="https://www.chillibyte.co.uk/" rel="nofollow noopener" target="_blank" class="cb"
