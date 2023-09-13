@@ -17,7 +17,7 @@ defined('ABSPATH') || exit;
             </div>
             <div class="col-lg-3">
                 <div class="footer__heading">Sectors</div>
-                    <?=wp_nav_menu(array('theme_location' => 'footer_menu2', 'menu_class' => 'cols-lg-2'))?>
+                    <?=wp_nav_menu(array('theme_location' => 'footer_menu2', 'menu_class' => 'menu cols-lg-2'))?>
                 </div>
             <div class="col-lg-3">
                 <div class="footer__heading">Contact</div>
