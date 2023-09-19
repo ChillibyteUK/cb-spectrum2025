@@ -21323,7 +21323,7 @@ strong {
   gap: 1rem;
 }
 #wrapper-navbar .navbar-brand {
-  background-image: url(../img/cps-logo.svg);
+  background-image: url(../img/cps-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
