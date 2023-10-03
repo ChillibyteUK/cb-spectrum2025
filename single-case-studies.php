@@ -90,7 +90,7 @@ get_header();
                 echo '<div class="gallery mt-4">';
                 foreach ($images as $img) {
                     ?>
-                    <a class="gallery__preview" data-fancybox="gallery" href="<?=wp_get_attachment_image_url( $img, 'full' )?>" style="background-image:url(<?=wp_get_attachment_image_url( $img, 'medium' )?>)"></a>
+                    <a class="gallery__preview" data-fancybox="gallery" href="<?=wp_get_attachment_image_url( $img, 'full' )?>" style="background-image:url(<?=wp_get_attachment_image_url( $img, 'large' )?>)"></a>
                     <?php
                 }
                 echo '</div>';
