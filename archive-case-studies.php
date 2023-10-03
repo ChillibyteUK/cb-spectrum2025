@@ -51,7 +51,7 @@ get_header();
                 $the_date = get_the_date('jS F, Y');
 
                 $gallery = get_field('gallery', get_the_ID());
-                $img = wp_get_attachment_image_url($gallery[0] , 'medium' );
+                $img = wp_get_attachment_image_url($gallery[0] , 'large' );
         
                 ?>
 
