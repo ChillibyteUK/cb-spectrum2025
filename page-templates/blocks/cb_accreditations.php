@@ -16,6 +16,6 @@
             }
             ?>
         </div>
-        <div class="text-center"><a class="btn btn-primary" href="/accreditations-awards/">Find out more</a></div>
+        <div class="text-center"><a class="btn btn-primary" href="/about-us/accreditations-awards/">Find out more</a></div>
     </div>
 </section>
