@@ -148,10 +148,19 @@ function acf_blocks()
             'mode'	=> 'edit',
             'supports' => array('mode' => false),
         ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_latest_cs',
+            'title'				=> __('CB Latest Case Studies'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_latest_cs.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
     }
 }
 add_action('acf/init', 'acf_blocks');
-    
+
 // Gutenburg core modifications
 add_filter('register_block_type_args', 'core_image_block_type_args', 10, 3);
 function core_image_block_type_args($args, $name)
@@ -181,3 +190,4 @@ function modify_core_add_container($attributes, $content)
     $content = ob_get_clean();
     return $content;
 }
+?>
