@@ -86,7 +86,7 @@ get_header();
             ?>
             <?php
             $images = get_field('gallery');
-            if ($images) {
+            if (count($images) > 1) {
                 echo '<div class="gallery mt-4">';
                 foreach ($images as $img) {
                     ?>
