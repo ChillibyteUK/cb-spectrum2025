@@ -88,6 +88,13 @@
     }
 }
 
+.filters {
+    .btn-outline-primary {
+        font-size: var(--fs-300);
+        text-transform: initial;
+    }
+}
+
 .btn-next {
     width: 125px;
     text-align: center;
