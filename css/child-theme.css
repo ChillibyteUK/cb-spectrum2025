@@ -22109,22 +22109,6 @@ ul.no-indent {
   position: relative;
   display: inline-block;
 }
-#main a:not(.btn, .gform_button, .services__card, .sectors__card, .news_grid__item, .related__card, .gallery__preview, .cs_index__card)::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scale(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--col-green-400);
-  transform-origin: bottom right;
-  transition: transform 250ms ease-out;
-}
-#main a:not(.btn, .gform_button, .services__card, .sectors__card, .news_grid__item, .related__card, .gallery__preview, .cs_index__card):hover::before {
-  transform: scalex(1);
-  transform-origin: bottom left;
-}
 
 /*
 var all = document.getElementsByTagName("*"), i = 0, rect, docWidth = document.documentElement.offsetWidth;
