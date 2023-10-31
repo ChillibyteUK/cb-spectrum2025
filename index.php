@@ -28,7 +28,7 @@ get_header();
         }
 
         ?>
-        <div class="news_index related">
+        <div class="news_index related mb-5">
             <?php
             while (have_posts()) {
                 the_post();
