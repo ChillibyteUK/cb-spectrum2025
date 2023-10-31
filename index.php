@@ -46,7 +46,6 @@ get_header();
                     <div class="related__content">
                         <h3 class="related__title mb-0"><?=get_the_title()?></h3>
                         <div class="related__date mb-2"><?=$the_date?></div>
-                        <?=wp_trim_words(get_the_content(get_the_ID()),20)?>
                     </div>
                 </a>
                 <?php
