@@ -1,9 +1,9 @@
 <section class="andwis py-5">
     <div class="container-xl">
         <h2 class="text-blue-400 dot mb-4">Part of The Andwis Group</h2>
-        <div class="mb-4">
+        <div class="mb-5">
             <h3>What we do</h3>
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-md-8">
                     <div class="mb-4">We bring industry-leading technical building service companies together to offer multi-service solutions for our clients.  Our core beliefs are the fundamental guiding principles that everyone in our group should live by. They reflect what we stand for as a company, and as a team.</div>
                 </div>
@@ -15,7 +15,7 @@
                     </ul>
                 </div>
             </div>
-            <h3>Our Companies</h3>
+            <h3 class="mb-4">Our Companies</h3>
         </div>
         <div class="andwis__grid mb-4">
             <?php
