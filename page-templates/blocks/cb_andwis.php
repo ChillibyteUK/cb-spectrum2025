@@ -7,13 +7,11 @@
                 <div class="col-md-8">
                     <div class="mb-4">We bring industry-leading technical building service companies together to offer multi-service solutions for our clients.  Our core beliefs are the fundamental guiding principles that everyone in our group should live by. They reflect what we stand for as a company, and as a team.</div>
                 </div>
-                <div class="col-md-4">
-                    <ul>
-                        <li class="fs-5 fw-bold dot">Integrity  is integral</li>
-                        <li class="fs-5 fw-bold dot">Dynamic by design</li>
-                        <li class="fs-5 fw-bold dot">Partnership for progress</li>
-                    </ul>
-                </div>
+            </div>
+            <div class="d-flex justify-content-around">
+                <span class="fs-5 fw-bold dot">Integrity is integral</span>
+                <span class="fs-5 fw-bold dot">Dynamic by design</span>
+                <span class="fs-5 fw-bold dot">Partnership for progress</span>
             </div>
             <h3 class="mb-4">Our Companies</h3>
         </div>
