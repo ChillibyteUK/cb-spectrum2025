@@ -11,7 +11,7 @@
                     <img src="<?=get_stylesheet_directory_uri()?>/img/andwis-tight.svg" alt="">
                 </div>
             </div>
-            <div class="d-flex justify-content-around mb-4">
+            <div class="d-flex flex-wrap justify-content-around mb-5">
                 <span class="fs-5 fw-bold dot">Integrity is integral</span>
                 <span class="fs-5 fw-bold dot">Dynamic by design</span>
                 <span class="fs-5 fw-bold dot">Partnership for progress</span>
