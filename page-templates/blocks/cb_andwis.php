@@ -9,9 +9,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul>
-                        <li class="fs-5 dot">Integrity  is integral</li>
-                        <li class="fs-5 dot">Dynamic by design</li>
-                        <li class="fs-5 dot">Partnership for progress</li>
+                        <li class="fs-5 fw-bold dot">Integrity  is integral</li>
+                        <li class="fs-5 fw-bold dot">Dynamic by design</li>
+                        <li class="fs-5 fw-bold dot">Partnership for progress</li>
                     </ul>
                 </div>
             </div>
