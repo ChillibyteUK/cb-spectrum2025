@@ -160,6 +160,26 @@
             "append": ""
         },
         {
+            "key": "field_646cbd26afcab",
+            "label": "Google Analytics",
+            "name": "ga_property",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_64639d1ed8750",
             "label": "Client Logos",
             "name": "",
