@@ -21661,7 +21661,7 @@ footer .cb:hover {
 }
 
 .overlay--dark {
-  --slash-width: 135%;
+  --slash-width: 100%;
   position: absolute;
   width: var(--slash-width);
   height: var(--hero-height);
@@ -21670,6 +21670,11 @@ footer .cb:hover {
   mix-blend-mode: darken;
   opacity: 0.6;
   z-index: -1;
+}
+@media (min-width: 768px) {
+  .overlay--dark {
+    --slash-width: 135%;
+  }
 }
 @media (min-width: 992px) {
   .overlay--dark {

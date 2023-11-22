@@ -110,7 +110,7 @@ do_action('wp_body_open');
     <div id="wrapper-navbar" class="fixed-top">
         <nav id="navbar" class="navbar navbar-expand-md d-block p-0 pt-2 pt-md-0" aria-labelledby="main-nav-label">
             <div class="container-xl mb-2 d-block d-md-flex">
-                <div class="d-flex w-md-auto justify-content-between align-items-center px-2" style="width:90vw">
+                <div class="d-flex w-md-auto justify-content-between align-items-center px-2">
                     <a href="/" class="navbar-brand" rel="home"></a>
                     <button class="navbar-toggler input-button" id="navToggle" data-bs-toggle="collapse" data-bs-target=".navbars" type="button" aria-label="Navigation"><i class="fa fa-navicon"></i></button>
                 </div>

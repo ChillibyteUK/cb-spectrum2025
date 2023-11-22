@@ -31,7 +31,10 @@
 }
 
 .overlay--dark {
-    --slash-width: 135%;
+    --slash-width: 100%;
+    @media (min-width:768px) {
+        --slash-width: 135%;
+    }
     position: absolute;
     width: var(--slash-width);
     height: var(--hero-height);
