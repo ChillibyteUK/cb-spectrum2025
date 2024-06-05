@@ -2,7 +2,7 @@
 $class = is_front_page() ? 'front-hero' : '';
 $classes = $block['className'] ?? null;
 ?>
-<section class="hero <?=$class?> <?=$classes?>" style="background-image:url(<?=get_the_post_thumbnail_url( get_the_ID(), 'full' )?>">
+<section class="hero <?=$class?> <?=$classes?>" style="background-image:url(<?=get_the_post_thumbnail_url( get_the_ID(), 'full' )?>)">
     <div class="overlay--dark"></div>
     <div class="container-xl">
         <div class="row">
