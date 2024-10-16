@@ -7,7 +7,6 @@
                 <li class="mb-2"><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span> <?=get_field('contact_address','options')?></li>
                 <li class="mb-2"><span class="fa-li"><i class="far fa-envelope"></i></span> <?=do_shortcode('[contact_email]')?></li>
                 <li class="mb-2"><span class="fa-li"><i class="fas fa-phone-alt"></i></span> <?=do_shortcode('[contact_phone]')?></li>
-                <li class="mb-2"><span class="fa-li"><i class="fas fa-fax"></i></span> <?=get_field('contact_fax','options')?></li>
             </ul>
         </div>
         <div class="col-lg-6">
