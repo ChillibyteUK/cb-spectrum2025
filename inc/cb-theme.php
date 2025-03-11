@@ -74,6 +74,9 @@ function widgets_init()
     register_nav_menus(array(
         'footer_menu2' => __('Footer Menu 2', 'cb-gaffsy'),
     ));
+    register_nav_menus(array(
+        'footer_menu3' => __('Footer Menu 3', 'cb-gaffsy'),
+    ));
 
     unregister_sidebar('hero');
     unregister_sidebar('herocanvas');

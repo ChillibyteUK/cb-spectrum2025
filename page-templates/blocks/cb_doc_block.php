@@ -7,7 +7,7 @@
             the_row();
             $ID = $doc;
             $title = get_the_title($ID); // "title"; // get_sub_field('download_title');
-            $image = wp_get_attachment_image_url( $ID, 'medium' ) ?: '/wp-content/themes/cb-cps2023/img/cps-placeholder-a4.png';
+            $image = wp_get_attachment_image_url( $ID, 'medium' ) ?: '/wp-content/themes/cb-spec2025/img/cps-placeholder-a4.png';
             $file = basename( get_attached_file($ID) );
             $size = filesize( get_attached_file($ID) );
             $ftype = get_post_mime_type($ID);

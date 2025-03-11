@@ -21328,12 +21328,12 @@ strong {
   gap: 1rem;
 }
 #wrapper-navbar .navbar-brand {
-  background-image: url(../img/cps-logo.png);
+  background-image: url(/wp-content/uploads/2025/03/logo-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top left;
-  width: 150px;
-  height: 90px;
+  width: 338px;
+  height: 93px;
   margin-right: 0;
 }
 #wrapper-navbar .current-menu-item > .nav-link {
@@ -21653,7 +21653,7 @@ footer .cb:hover {
   color: white;
 }
 .hero h1, .hero .h1 {
-  font-size: var(--fs-900);
+  font-size: var(--fs-800);
   font-weight: var(--fw-600);
 }
 .hero h2, .hero .h2 {
@@ -22039,6 +22039,10 @@ footer .cb:hover {
   padding: 0.25rem;
   display: flex;
   justify-content: space-between;
+}
+
+.latest_cs {
+  background-color: var(--col-grey-200);
 }
 
 main {
