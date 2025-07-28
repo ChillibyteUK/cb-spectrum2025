@@ -21970,29 +21970,6 @@ footer .cb:hover {
   margin-bottom: 0.5rem;
 }
 
-.testimonials {
-  background-color: var(--col-grey-200);
-}
-.testimonials__slider {
-  display: flex;
-}
-.testimonials__testimonial {
-  text-align: center;
-}
-.testimonials__body {
-  max-width: 800px;
-  margin: auto;
-}
-.testimonials__content {
-  font-size: var(--fs-500);
-  font-style: italic;
-}
-.testimonials__cite {
-  font-weight: var(--fw-600);
-  font-size: var(--fs-400);
-  color: var(--col-green-400);
-}
-
 .person_bio__image {
   border-radius: 50%;
   -o-object-fit: cover;

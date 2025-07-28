@@ -82,16 +82,6 @@ function acf_blocks()
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
-            'name'				=> 'cb_testimonials',
-            'title'				=> __('CB Testimonial Slider'),
-            'category'			=> 'layout',
-            'icon'				=> 'cover-image',
-            'render_template'	=> 'page-templates/blocks/cb_testimonials.php',
-            'keywords'			=> array( 'testimonial', 'slider' ),
-            'mode'	=> 'edit',
-            'supports' => array('mode' => false),
-        ));
-        acf_register_block_type(array(
             'name'				=> 'cb_related_case_studies',
             'title'				=> __('CB Related Case Studies'),
             'category'			=> 'layout',
