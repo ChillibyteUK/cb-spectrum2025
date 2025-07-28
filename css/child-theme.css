@@ -21792,9 +21792,6 @@ footer .cb:hover {
   transition: transform 300ms ease;
   transform-origin: center;
 }
-.services_nav .services__card:hover img {
-  transform: scale(1.1);
-}
 
 .clients__slider {
   display: flex;
