@@ -23,7 +23,7 @@ get_header();
     <div class="container-xl py-5">
         <?php
         ?>
-        <div class="cs_index row g-4">
+        <div class="cs_index row">
             <?php
                 query_posts( array( 'post_type' => 'case-studies', 'posts_per_page' => -1 ) );
 
