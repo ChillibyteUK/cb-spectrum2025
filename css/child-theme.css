@@ -21739,9 +21739,6 @@ footer .cb:hover {
   object-position: center;
   transition: transform 300ms ease;
 }
-.sectors_nav .sectors__card:hover img {
-  transform: scale(1.1);
-}
 
 .services_nav {
   --border-color: var(--col-blue-400);
@@ -21791,6 +21788,9 @@ footer .cb:hover {
   object-position: center;
   transition: transform 300ms ease;
   transform-origin: center;
+}
+.services_nav .services__card:hover img {
+  transform: scale(1.1);
 }
 
 .clients__slider {
