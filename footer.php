@@ -11,15 +11,15 @@ defined('ABSPATH') || exit;
                 <img src="/wp-content/uploads/2025/03/logo-footer.png"
                     class="footer__logo" alt="Spectrum Electrical Logo">
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <div class="footer__heading">Services</div>
                 <?=wp_nav_menu(array('theme_location' => 'footer_menu1'))?>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-3">
                 <div class="footer__heading">SPECTRUM ELECTRICAL GROUP</div>
                 <?=wp_nav_menu(array('theme_location' => 'footer_menu3', 'menu_class' => 'menu'))?>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <div class="footer__heading">Contact</div>
                     <p><?=do_shortcode('[contact_address]')?></p>
                     <p><?=do_shortcode('[contact_phone]')?></p>
