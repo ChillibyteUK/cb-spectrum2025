@@ -15,10 +15,10 @@
             $s = get_sub_field('sector');
             $img = get_the_post_thumbnail($s,'large') ?: get_stylesheet_directory_uri() . '/img/missing-image.png';
             ?>
-            <a class="sectors__card" href="<?=get_the_permalink($s)?>">
+            <div class="sectors__card">
                 <div class="img_container"><img src="<?=$img?>"></div>
                 <h3 class="fs-450 text-green-400"><?=get_the_title($s)?></h3>
-            </a>
+        </div>
             <?php
         }
         ?>
