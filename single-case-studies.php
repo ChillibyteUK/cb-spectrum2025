@@ -72,8 +72,18 @@ get_header();
             $service = get_the_terms(get_the_ID(), 'csservice')[0]->name ?? null ?: '';
             ?>
         <div class="cs-sector">
+            <?php
+            if ( $sector ) {
+                ?>
             <div><strong>Sector:</strong> <?=$sector?></div>
+                <?php
+            }
+            if ( $service ) {
+                ?>
             <div><strong>Project Type:</strong> <?=$service?></div>
+                <?php
+            }
+            ?>
         </div>
             <?php
 
