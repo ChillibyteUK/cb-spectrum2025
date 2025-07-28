@@ -48,7 +48,6 @@ get_header();
         </div>
     </div>
     <?php
-require('page-templates/blocks/cb_testimonials.php');
 wp_reset_postdata();
 $about = get_page_by_path('about-us') ?? null;
 if ($about) {

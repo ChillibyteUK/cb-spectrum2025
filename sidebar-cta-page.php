@@ -40,9 +40,6 @@ get_header();
             </div>
         </div>
     </div>
-    <?php
-require('page-templates/blocks/cb_testimonials.php');
-    ?>
 </main>
 <?php
 get_footer();
