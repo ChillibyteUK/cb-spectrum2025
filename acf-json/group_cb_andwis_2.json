@@ -1,0 +1,23 @@
+{
+  "key": "group_cb_andwis_2",
+  "title": "CB Andwis 2",
+  "fields": [
+    {
+      "key": "field_cb_andwis_2_title",
+      "label": "CB Andwis 2",
+      "name": "title",
+      "type": "message"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "acf/cb-andwis-2"
+      }
+    ]
+  ],
+  "active": 1,
+  "description": ""
+}

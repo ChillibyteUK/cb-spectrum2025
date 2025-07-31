@@ -2,6 +2,26 @@
 function acf_blocks()
 {
     if (function_exists('acf_register_block_type')) {
+
+		// INSERT NEW BLOCKS HERE.
+
+        acf_register_block_type(
+            array(
+                'name'            => 'cb_andwis_2',
+                'title'           => __( 'CB Andwis 2' ),
+                'category'        => 'layout',
+                'icon'            => 'cover-image',
+                'render_template' => 'page-templates/blocks/cb-andwis-2.php',
+                'mode'            => 'edit',
+                'supports'        => array(
+                    'mode'      => false,
+                    'anchor'    => true,
+                    'className' => true,
+                    'align'     => true,
+                ),
+            )
+        );
+
         acf_register_block_type(array(
             'name'				=> 'cb_hero',
             'title'				=> __('CB Hero'),
