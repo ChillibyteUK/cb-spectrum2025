@@ -121,3 +121,49 @@ defined( 'ABSPATH' ) || exit;
 		</div>
 	</div>
 </section>
+<?php
+add_action (
+	'wp_footer',
+	function () {
+		?>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Only add touch functionality on touch devices
+    if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+        const serviceCards = document.querySelectorAll('.andwis2 .service-card');
+        
+        serviceCards.forEach(card => {
+            card.addEventListener('touchstart', function(e) {
+                // Prevent default to avoid triggering hover states
+                e.preventDefault();
+                
+                // Close all other cards first
+                serviceCards.forEach(otherCard => {
+                    if (otherCard !== card) {
+                        otherCard.classList.remove('active');
+                    }
+                });
+                
+                // Toggle this card
+                card.classList.toggle('active');
+            });
+            
+            // Add touch-friendly cursor
+            card.style.cursor = 'pointer';
+        });
+        
+        // Close cards when touching outside
+        document.addEventListener('touchstart', function(e) {
+            if (!e.target.closest('.andwis2 .service-card')) {
+                serviceCards.forEach(card => {
+                    card.classList.remove('active');
+                });
+            }
+        });
+    }
+});
+</script>
+		<?php
+	}
+);
+?>

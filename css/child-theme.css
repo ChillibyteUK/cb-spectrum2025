@@ -22051,7 +22051,8 @@ footer .cb:hover {
   height: 100%;
 }
 .andwis2 .service-card:hover .service-card__back,
-.andwis2 .service-card:focus-within .service-card__back {
+.andwis2 .service-card:focus-within .service-card__back,
+.andwis2 .service-card.active .service-card__back {
   transform: translateY(0);
   pointer-events: auto;
 }

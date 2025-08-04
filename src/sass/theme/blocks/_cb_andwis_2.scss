@@ -34,7 +34,8 @@
 	}
 
 	.service-card:hover .service-card__back,
-	.service-card:focus-within .service-card__back {
+	.service-card:focus-within .service-card__back,
+	.service-card.active .service-card__back {
 		transform: translateY(0);
 		pointer-events: auto;
 	}
