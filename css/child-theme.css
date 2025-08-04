@@ -22019,12 +22019,54 @@ footer .cb:hover {
   background-color: var(--col-grey-200);
 }
 
-.service-card__front {
+.andwis2 .service-card {
+  transition: all 0.3s ease;
+  min-height: 220px;
+  background-color: var(--col-green-900);
+}
+.andwis2 .service-card__front {
+  display: grid;
+  grid-template-rows: 4rem auto;
+  cursor: pointer;
+}
+.andwis2 .service-card__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+.andwis2 .service-card__subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: hsl(127deg, 45%, 78%);
+}
+.andwis2 .service-card__back {
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  z-index: 2;
+  background-color: hsl(127deg, 45%, 78%);
+  color: black;
+  pointer-events: none;
+  font-size: 0.9rem;
+  height: 100%;
+}
+.andwis2 .service-card:hover .service-card__back,
+.andwis2 .service-card:focus-within .service-card__back {
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.andwis2 .has-green-900-color {
+  color: var(--col-green-900);
+}
+.andwis2 .has-green-400-color {
+  color: var(--col-green-400);
+}
+.andwis2 .service-card__front {
   display: grid;
   grid-template-columns: 50px 1fr;
   row-gap: 0.5rem;
 }
-.service-card__icons {
+.andwis2 .service-card__icons {
   width: 50px;
   height: 50px;
 }
