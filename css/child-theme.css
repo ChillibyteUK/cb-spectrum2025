@@ -22019,6 +22019,16 @@ footer .cb:hover {
   background-color: var(--col-grey-200);
 }
 
+.service-card__front {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  row-gap: 0.5rem;
+}
+.service-card__icons {
+  width: 50px;
+  height: 50px;
+}
+
 main {
   margin-top: var(--h-top);
 }
